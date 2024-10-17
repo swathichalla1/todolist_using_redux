@@ -12,9 +12,9 @@ export function EDIT(todo){
     }
 }
 
-export function DELETE(todo){
+export function DELETE(id){
     return {
         type:"DELETE",
-        payload:todo
+        payload:id
     }
 }
